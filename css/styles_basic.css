@@ -1,0 +1,143 @@
+html {
+    font-size: 62.5;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: 16px;
+}
+
+body {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+h3 {
+    font-size: 2.6rem;
+}
+
+h1, 
+h2,
+h3  {
+    text-align: center;
+}
+
+a {
+    color: inherit;
+    /* Mantiene el color del texto circundante */
+    text-decoration: none;
+    /* Eliminar subrayado */
+    transition: color 0.3s ease;
+    /* Añade una transición suave para los cambios de color */
+}
+
+a:hover {
+    color: blueviolet;
+    /* Cambia el color al pasa el cursor pon encima */
+}
+
+ul {
+    list-style-type: none;
+    /* Elimina viñetas*/
+    padding-left: 0;
+    /* Elimina el espaciado a la izquierda */
+    margin: 0;
+    /* Elimina el margen */
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+header .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+
+main .projects {
+    padding: 1rem;
+    border: 1px solid;
+}
+
+.p1,
+.p2,
+.p3,
+.p4,
+.p5 {
+    border: 1px solid;
+}
+
+main .work {
+   padding-left: 1rem;
+   border: 1px solid;
+}
+
+.w1,
+.w2 {
+    border: 1px solid;
+}
+
+main .education {
+    padding-bottom: 2rem;
+    border: 1px solid;
+}
+
+main {
+    display: flex;
+}
+
+.reviews {
+    display: flex;
+}
+
+.review_1 {
+    border: 1px solid;
+}
+
+.review_2 {
+    border: 1px solid;
+}
+
+.review_3 {
+    border : 1px solid;
+}
+
+.rights {
+    text-align: center;
+}
